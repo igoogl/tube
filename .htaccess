@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^videolar.html ara.php [L]
+RewriteRule ^iletisim.html iletisim.php [L]
+
+RewriteRule (.*)-(.*).html video.php?vid=$2 [L]
+RewriteRule (.*)-(.*).jpg resim.php?res=$2 [L]
+
+#cv eski videolar
+RewriteRule ^(.*)!(.*).html video2.php?act=video&vid=$1 [L]

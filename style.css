@@ -1,0 +1,874 @@
+/*
+Theme Name: MeTube
+Theme URI: http://www.wordpressthemesbook.com/metube-youtube-clone/
+Description: MeTube Wordpress Theme is an ads ready, video and game theme.
+Author: WTB
+Author URI: http://www.wordpressthemesbook.com
+*/
+
+/******* BODY ********/
+
+body {
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+background:#ffffff;
+color:#666666;
+margin:0;
+}
+
+#main {
+width:960px;
+margin:0 auto;
+}
+
+a {
+text-decoration:none;
+color:#0033cc;
+outline: none;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+img {
+border:none;
+text-decoration: none;
+outline: none;
+}
+
+/******* HEADER ********/
+
+#header {
+height:54px;
+border-bottom:1px solid #f3f3f3;
+margin:0;
+padding:0;
+}
+
+/******* LOGO ********/
+
+.logo {
+width:136px;
+float:left;
+margin:0;
+}
+
+.logo h1, .logo h1 a {
+color:#ff3333;
+font-size:32px;
+margin:7px 0 0 0;
+padding:0;
+text-decoration:none;
+}
+
+/******* SEARCH ********/
+
+.searchpart {
+float:left;
+width:522px;
+margin:11px 0 0 0;
+overflow:hidden;
+height:38px;
+}
+
+.search {
+width:372px;
+height:29px;
+margin:0;
+float:left;
+}
+
+.main_search{
+height:30px;
+margin:6px 0 0 2px;
+padding:0;
+}
+
+.searchform_top{
+padding:0px 0px 0 0;
+float:left;
+}
+
+.searchform_top_text{
+width:290px;
+height:23px;
+border:1px solid #666666;
+font-size:13px;
+float:left;
+margin:0 0 0 0;
+padding:0;
+color:#000;
+}
+
+.searchform_top_text:hover{
+border:1px solid #bbdafd;
+}
+
+.gosearch{
+float:left;
+}
+
+/******* SEARCH MENU ********/
+
+.searchmenu {
+float:right;
+width:150px;
+margin:10px 0 0 0;
+}
+
+.searchmenu ul {
+margin:0;
+padding:0;
+}
+
+.searchmenu ul li {
+margin:0;
+padding:2px 8px 2px 10px;
+list-style:none;
+display:inline;
+border-left:1px solid #cccccc;
+}
+
+.searchmenu ul li a{
+font-size:13px;
+}
+
+/******* TOP RIGHT MENU ********/
+
+.topright {
+margin:21px 0 0 0;
+padding:0;
+width:200px;
+float:right;
+text-align:right;
+}
+
+.topright ul {
+margin:0;
+padding:0;
+}
+
+.topright ul li {
+margin:0;
+padding:2px 8px 2px 11px;
+list-style:none;
+display:inline;
+}
+
+.topright ul li.signin {
+margin:0;
+padding:2px 0px 2px 10px;
+list-style:none;
+display:inline;
+border-left:1px solid #cccccc;
+}
+
+.topright ul li a {
+font-size:13px;
+}
+
+/******* POSTS ********/
+
+#content {
+clear:both;
+overflow:hidden;
+height:100%;
+margin:21px 0 0 0;
+}
+
+.homebody {
+width:625px;
+float:left;
+overflow:hidden;
+height:100%;
+}
+
+.randomposts {
+margin:0;
+padding:0;
+overflow:hidden;
+height:100%;
+}
+
+.randomposts h2 {
+margin:0 0 10px 0;
+padding:0 0 3px 0;
+font-size:16px;
+font-weight:bold;
+color:#0033cc;
+border-bottom:1px solid #cccccc;
+}
+
+.randomposts h2.pagetitle {
+margin:0 0 10px 0;
+padding:5px 0 5px 10px;
+font-size:16px;
+font-weight:bold;
+color:#000;
+background:#cccccc;
+-moz-border-radius: 5px;
+border-bottom:none;
+}
+
+.randomposts h2.featured {
+margin:0 0 10px 0;
+padding:0 0 3px 0;
+font-size:16px;
+font-weight:bold;
+color:#000000;
+border-bottom:1px solid #cccccc;
+}
+
+
+.posts {
+width:126px;
+float:left;
+margin:0 15px 15px 15px;
+height:141px;
+}
+
+.posts2 {
+width:126px;
+float:left;
+margin:0 11px 15px 12px;
+height:141px;
+}
+
+.postimage {
+padding:1px;
+border:1px solid #999999;
+}
+
+.postimage img {
+border:1px solid #999999;
+width:120px;
+height:72px;
+}
+
+.postinfo {
+margin:3px 0 0 0;
+padding:0;
+height:30px;
+}
+
+.postinfo a {
+font-weight:bold;
+}
+
+.postviews {
+margin:1px 0 0 0;
+padding:0;
+font-size:11px;
+}
+
+.featuredleft {
+width:264px;
+float:left;
+overflow:hidden;
+height:100%;
+}
+
+.featuredright {
+width:354px;
+float:right;
+overflow:hidden;
+height:100%;
+}
+
+.fpostsright {
+margin:0 15px 15px 0px;
+overflow:hidden;
+height:100%;
+}
+
+.fpostrightimage {
+width:122px;
+padding:1px;
+border:1px solid #999999;
+float:left;
+}
+
+.fpostrightimage img {
+border:1px solid #999999;
+width:120px;
+height:72px;
+}
+
+.fpostrighti {
+width:205px;
+float:right;
+overflow:hidden;
+height:100%;
+}
+
+.fpostrighti a{
+font-size:13px;
+font-weight:bold;
+}
+
+.fposts {
+width:226px;
+float:left;
+margin:0 15px 15px 15px;
+}
+
+.fpostimage {
+padding:1px;
+border:1px solid #999999;
+}
+
+.fpostimage img {
+border:1px solid #999999;
+width:220px;
+height:164px;
+}
+
+/******* SIDEBAR RIGHT ********/
+
+.sidebar_right {
+width:300px;
+float:right;
+overflow:hidden;
+height:100%;
+}
+
+.ads300, .rightvideo, .whatsnew, .allblogs {
+margin:0 0 15px 0;
+padding:0;
+}
+
+.ads300single {
+margin:30px 0 15px 0;
+padding:0;
+}
+
+.whatsnew h2 {
+margin:0 0 10px 0;
+padding:0 0 5px 0;
+font-size:18px;
+font-weight:bold;
+color:#000;
+border-bottom:1px solid #cccccc;
+}
+
+.fromblog {
+margin:0 0 15px 0;
+padding:0;
+}
+
+.fromblogtitle {
+margin:0 0 5px 0;
+padding:0;
+}
+
+.fromblogtitle a {
+font-size:13px;
+font-weight:bold;
+}
+
+.fromblogcon, .fromblogcon p{
+margin:0;
+padding:0;
+}
+
+.allblogs {
+text-align:right;
+}
+
+/******* SINGLE RIGHT ********/
+
+.singleright {
+margin:0 0 5px 0;
+padding:0;
+overflow:hidden;
+height:100%;
+}
+
+.singleright:hover {
+background:#d1e1fa;
+}
+
+.singlerightimage {
+margin:0;
+float:left;
+width:92px;
+border:1px solid #999999;
+padding:1px;
+}
+
+.singlerightimage img {
+border:1px solid #999999;
+width:90px;
+}
+
+.singlerighti {
+width:195px;
+float:right;
+
+}
+
+/******* SINGLE ********/
+
+.singlebody {
+width:640px;
+float:left;
+overflow:hidden;
+height:100%;
+color:#000;
+}
+
+.singlepost {
+margin:0;
+padding:0;
+overflow:hidden;
+height:100%;
+}
+
+.singlepost h2 {
+margin:0 0 5px 0;
+padding:0;
+font-size:20px;
+font-weight:bold;
+color:#333333;
+}
+
+.videogame {
+overflow:hidden;
+height:100%;
+margin-bottom:15px;
+}
+
+.videogame p {
+margin:0 0 10px 0;
+line-height:18px;
+}
+
+.videogame ul {
+margin:0 0 10px 10px;
+}
+
+.videogame ul li {
+margin:0 0 10px 5px;
+}
+
+.videogame ol {
+margin:0 0 10px 10px;
+}
+
+.videogame ol li {
+margin:0 0 10px 5px;
+}
+
+blockquote {
+margin:0 20px 15px 20px; 
+border-left:1px dotted #cccccc;
+padding-left:10px;
+}
+
+img.alignleft, img.left { float: left;margin-right:7px;margin-top:3px; }
+img.alignright, img.right { float: right; margin-left:7px;margin-top:3px;}
+img.aligncenter, img.center { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+img.alignnone, img.block { display: block; clear: both; }
+img.frame { background: #eee; border-style: solid; border-color: #ddd; }
+img.stack { clear: none !important; }
+img[align="left"] { float: left; clear: left; }
+img[align="right"] { float: right; clear: right; }
+img[align="middle"] { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+
+/*?:[ image captioning ]:?*/
+.wp-caption { border-style: solid; border-color: #ddd; background-color: #eee; text-align: center; font-style: italic; }
+.wp-caption.alignleft { float: left; }
+.wp-caption.alignright { float: right; }
+.wp-caption.aligncenter { margin-right: auto; margin-left: auto; float: none; clear: both; }
+.wp-caption.alignnone { clear: both; }
+.alignright {float: right;}
+.alignleft {float: left;}
+
+.postinformation {
+border:1px solid #cccccc;
+-moz-border-radius: 5px;
+padding:10px 10px 0 10px;
+margin-bottom:10px;
+}
+
+.postinformation:hover {
+background:#d1e1fa;
+}
+
+.videopart {
+margin:0 0 15px 0;
+}
+
+.postviewpart {
+width:70px;
+float:right;
+background:#fffffa;
+-moz-border-radius: 5px;
+border:1px solid #cccccc;
+padding:10px;
+text-align:center;
+font-weight:bold;
+}
+
+.gamepart {
+border:1px solid #cccccc;
+overflow:hidden;
+height:100%;
+margin:0 0 15px 0;
+}
+
+/********* ARCHIVE ******/
+
+.homebody2 {
+width:750px;
+float:right;
+overflow:hidden;
+height:100%;
+}
+
+.catads {
+float:right;
+width:300px;
+margin:0 0 65px 0;
+}
+
+/******* NAVIGATION ********/
+
+.Nav {
+clear:both;
+margin:10px 0 20px 0;
+}
+
+.Nav span {
+font-weight:bold;
+color:#fff;
+padding:9px 13px 5px 12px;
+margin-right:5px;
+background:#161616;
+}
+
+.Nav strong.on {
+font-weight:bold;
+padding:8px 12px 5px 12px;
+margin-right:3px;
+background:url(images/navon.gif) no-repeat center;
+}
+
+.Nav a {
+font-weight:bold;
+background:url(images/navbg.gif) no-repeat center;
+padding:8px 12px 5px 12px;
+margin-right:3px;
+}
+
+.Nav a:hover {
+text-decoration:none;
+background:url(images/navhover.gif) no-repeat center;
+}
+
+.Nav a:active {
+text-decoration:none;
+background:url(images/navactive.gif) no-repeat center;
+}
+
+/******* SIDEBAR LEFT ********/
+
+.sidebar_left {
+width:190px;
+float:left;
+overflow:hidden;
+height:100%;
+}
+
+.catarchive {
+margin:0 0 15px 0;
+padding:0;
+}
+
+.sidebar_left h2 {
+margin:0;
+padding:4px 0 3px 10px;
+background:url(images/cath2.gif) no-repeat;
+color:#fff;
+font-size:13px;
+}
+
+.sidebar_left ul {
+margin:0;
+padding:0;
+}
+
+.sidebar_left ul li{
+margin:0 0 10px 0px;
+padding:0;
+list-style:none;
+}
+
+.sidebar_left ul li ul {
+margin:0;
+padding:7px 0 7px 0;
+background:#eaeaea url(images/catbottom.gif) no-repeat bottom;
+}
+
+.sidebar_left ul li ul li{
+margin:0 0 5px 15px;
+padding:0;
+list-style:none;
+}
+
+.sidebar_left ul li a {
+font-size:13px;
+color:#000000;
+}
+
+/*********COMMENTS ******/
+
+.comment a{
+text-decoration:none;
+}
+.commentlist li .avatar { 
+float: right;
+border: 1px solid #eee;
+padding: 2px;
+margin-top:-3px;
+}
+
+.commentlist cite, .commentlist cite a {
+color:#000;
+}
+
+.commentlist p {
+line-height:18px;
+}
+
+#commentform p {
+}
+
+.commentmetadata {
+}
+
+.commentmetadata a{
+color:#000;
+font-size:10px;
+padding:0;
+}
+
+.commentmetadata a:hover{
+color:#000;
+font-size:10px;
+background:none;
+}
+
+h3.comments {
+padding: 0;
+margin: 40px auto 20px;
+}
+
+h3#comments {
+padding: 0 0 0 0;
+margin: 0 0 10px 0px;
+font-size:14px;
+color:#666666;
+}
+
+#respond {
+margin:0 0px 0 0px;
+padding:0 0 0 0px;
+font-size:14px;
+}
+
+h3.respond {
+padding: 0;
+margin: 0px 0 10px 0px;
+font-size:14px;
+border-top:none;
+color:#666666;
+}
+
+#respond h3{
+padding: 10px 0 0 0;
+margin: 0px 10px 10px 0px;
+font-size:14px;
+color:#666666;
+}
+
+.alt {
+margin: 0;
+padding: 10px;
+}
+
+.commentlist {
+padding: 0;
+text-align: justify;
+margin:0;
+}
+
+.commentlist li {
+margin:0 10px 0px 0px;
+padding:10px 10px 0 10px;
+list-style: none;
+border-bottom:1px dotted #ccc;
+}
+
+.commentlist li:hover {
+background:#eeeeee;
+}
+
+.commentlist li ul li { 
+margin-right: -5px;
+margin-left: 10px;
+}
+
+.commentlist p {
+margin: 10px 5px 10px 0;
+}
+
+.children { padding: 0; }
+
+#commentform p {
+margin: 5px 0 0 0px;
+}
+
+.nocomments {
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+.commentmetadata {
+margin: 0;
+display: block;
+}
+
+
+#commentform input {
+width: 170px;
+padding: 2px;
+margin: 5px 5px 1px 0;
+}
+
+#commentform {
+margin: 5px 10px 0 0;
+}
+#commentform textarea {
+width: 99%;
+padding: 2px;
+}
+
+#commentform #submit {
+margin: 0 0 5px auto;
+float: right;
+}
+
+#respond small {
+font-size:12px;
+}
+
+/******* FOOTER ********/
+
+#footer {
+clear:both;
+border-top:1px solid #c6c2bb;
+margin:0;
+padding:10px 0 30px 0;
+overflow:hidden;
+height:100%;
+}
+
+.footerleft {
+width:800px;
+float:left;
+}
+
+.footerright {
+float:right;
+width:100px;
+text-align:right;
+}
+
+.footerright a {
+padding:0 10px 0 10px;
+}
+
+/******* SHARE ********/
+
+.share {
+margin:-40px 0 0 100px;
+padding:0;
+}
+
+.sharing-cl{
+overflow:hidden;
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.sharing-cl a{
+overflow:hidden;
+width:75px;
+height:30px;
+float:left;
+margin-right:5px;
+text-indent:-200px;
+}
+
+a.sh-su{background-position:-210px -40px;}
+a.sh-feed{background-position:-70px -40px;}
+a.sh-tweet{background-position:-140px -40px;}
+a.sh-mail{background-position:0 -40px;}
+a.sh-digg{background-position:-280px -40px;}
+a.sh-face{
+margin-right:0;
+background-position:-350px -40px;
+}
+
+a.sh-mail:hover{background-position:0 1px;}
+a.sh-feed:hover{background-position:-70px 1px;}
+a.sh-tweet:hover{background-position:-140px 1px;}
+a.sh-su:hover{background-position:-210px 1px;}
+.sh-digg:hover{background-position:-280px 1px;}
+a.sh-face:hover{
+background-position:-350px 1px;
+}
+
+#text{
+margin-top:3em;
+font-weight:bold;
+font-family:helvetica,arial,sans-serif;
+}
+
+#text a{
+text-indent:0;
+height:auto;
+text-align:center;
+font-size:11px;
+padding-top:35px;
+color:#999;
+text-decoration:none;
+}
+
+#pagination {
+	margin-top: 24px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+	text-align: center;
+	padding: 3px;
+}
+
+#pagination span {
+	font-weight: normal;
+	font-size: 11px;
+	color: #666666;
+}
+
+#pagination a {
+	color: #0033CC;
+	margin-right: 6px;
+}
+
+#pagination .onPage {
+	color: #333;
+}
